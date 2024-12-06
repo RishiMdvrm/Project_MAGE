@@ -4,16 +4,16 @@
 # Define variables for model, dataset, and output paths
 plm_dir="distilbert-base-uncased"
 seed=42629309
-data_path="/home/madhavaramrishi/mage_project/Project_MAGE/data_cross_domains_cross_models"
+data_path="/path/to/data"  #Change this path
 train_file="$data_path/train.csv"
 valid_file="$data_path/valid.csv"
 test_file="$data_path/test.csv"
-out_dir="/home/madhavaramrishi/mage_project/Project_MAGE/output_samples_${seed}_longformer"
+out_dir="/output/path/output_samples_${seed}_DistilBERT"   #Change this path
 time=$(date +'%Y%m%d_%H%M%S')
 mkdir -p $out_dir
 
 # Command to run the training script using specified configurations
-CUDA_VISIBLE_DEVICES=0 python3 /home/madhavaramrishi/mage_project/Project_MAGE/training/longformer/main.py \
+CUDA_VISIBLE_DEVICES=0 python3 /path/to/main.py \    #Change this path
   --do_train \
   --do_eval \
   --do_predict \
