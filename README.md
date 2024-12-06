@@ -35,6 +35,7 @@ pip install -r requirements.txt
 ### Model Access
 
 To run the models, you can go to the training folder:
+``` plaintext
 Training
 ├── DistilBERT
 │   ├── main.py         # Main script for training, evaluation, and prediction using DistilBERT
@@ -44,13 +45,14 @@ Training
 │   ├── train.sh        # Shell script to configure and execute training for Longformer
 ├── requirements.txt    # Python dependencies required to run the scripts
 
+```
+
 You can choose either DistilBERT or longformer and run the train.sh file using an IDE or the below script
-> **Note:** Change the directory names in the `train.sh` file as per your local setup.
 
 ```shell
 bash train.sh
 ```
-
+> **Note:** Change the directory names in the `train.sh` file as per your local setup.
 ---
 
 ## Output
