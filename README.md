@@ -6,7 +6,7 @@ This repository contains the implementation of experiments using DistilBERT and 
 
 ---
 
-## 📝 Dataset
+## Dataset
 
 You can find the dataset in the folder Data. It comprises of three file:
  - train.csv
