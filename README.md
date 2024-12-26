@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the implementation of experiments using DistilBERT and Longformer models for text classification and detection tasks. The directory includes training scripts, main program files, and setup requirements for reproducibility. Both models are configured to handle large-scale datasets and can be fine-tuned for text-based classification tasks.
+This repository is part of a reproducibility study conducted for the paper [MAGE: Machine-generated Text Detection in the Wild](https://aclanthology.org/2024.acl-long.3/). MAGE introduces a framework for detecting machine-generated text with strong in-domain performance and addressing out-of-distribution challenges. The study highlights the risks associated with indistinguishable machine-generated texts, such as fake news propagation and plagiarism, and provides robust detection mechanisms using models like Longformer and DistilBERT.
 
 ---
 
@@ -12,6 +12,7 @@ You can find the dataset in the folder Data. It comprises of three file:
  - train.csv
  - valid.csv
  - test.csv
+ 
 The data in this files comprises of both human and AI generated text gathered from various domains and language models.
 
 ---
